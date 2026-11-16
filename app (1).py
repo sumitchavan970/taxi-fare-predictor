@@ -19,7 +19,7 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # Settings (easy to change)
 # ---------------------------------------------------------------------------
-CURRENCY = "$"  # change to "₹" if your dataset is in rupees
+CURRENCY = "₹"  # change to "₹" if your dataset is in rupees
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "models"
 DATA_FILE = BASE_DIR / "taxi_fare.csv"
